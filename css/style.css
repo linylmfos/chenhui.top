@@ -1,0 +1,447 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Microsoft YaHei ', Arial '; background : #fff;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Microst YaHei', 'Arial';
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.banner {
+    background: url(../images/a1.jpg) no-repeat center 0px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    position: relative;
+}
+
+
+.header-left img {
+    width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.68);
+}
+
+.header-right {
+    padding-left: 3em;
+    margin-top: 3em;
+}
+
+.header-right h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0.5em 0 0;
+}
+
+.header-right h2 {
+    font-size: 1.2em;
+    color: #fff;
+    background: #F3E000;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+}
+
+.header-right h2:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: '';
+    bottom: -9px;
+    left: 12px;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #F3E000 transparent transparent transparent;
+}
+
+.header-right h6 {
+    font-size: 1em;
+    color: #ffffff;
+    margin-top: 0.8em;
+    letter-spacing: 6px;
+}
+
+ul.address {
+    margin-top: 2em;
+    border-top: 1px solid #AFAFAF;
+    padding-top: 0.5em;
+}
+
+ul.address li {
+    display: block;
+}
+
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 1em;
+    font-weight: 100;
+}
+
+ul.address li ul.address-text li:nth-child(1) {
+    width: 20%;
+}
+
+ul.address li ul.address-text li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.address li ul.address-text li a:hover {
+    color: #0FF;
+}
+
+/*top-nav*/
+.top-nav {
+    background: #008B8B;
+}
+
+.nav > li {
+    display: inline-block;
+}
+
+ul.nav.navbar {
+    margin: 0;
+    text-align: center;
+}
+
+ul.nav.navbar li a {
+    color: #fff;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-family: 'Microsoft YaHei, ;
+}
+
+ul.nav.navbar li a:hover, ul.nav.navbar li a.active, ul.nav.navbar li a:focus {
+    color: #008B8B;
+    background: #fff;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+}
+
+/*--//top-nav--*/
+
+/*--about--*/
+.about, .work, .education, .skills, .portfolio, .contact {
+    padding: 1em 0;
+}
+
+.container h5.title {
+    font-size: 4em;
+    text-align: center;
+    color: #008B8B;
+    border-bottom: 4px solid rgba(247, 197, 106, 0.35);
+    padding-bottom: 0.2em;
+    margin-bottom: 4px;
+}
+
+div.about-left p {
+    text-indent: 2em;
+}
+
+p {
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.8em;
+}
+
+.about-right {
+    padding-left: 5em;
+}
+
+.about-right ul {
+    border: 3px solid #008B8B;
+    padding: 1em 2em;
+}
+
+.about-right h5 {
+    font-size: 2em;
+    text-align: center;
+    color: #008B8B;
+}
+
+.about-right ul li {
+    display: block;
+    color: #000;
+    margin: 1em 0;
+    font-size: 1em;
+}
+.about-right > ul li{
+    font-size: 16px;
+}
+.about-right ul li span.glyphicon {
+    font-size: 0.8em;
+    margin-right: 6px;
+}
+
+/*--//about--*/
+
+/*--work--*/
+.work {
+    background: #ffffff;
+}
+
+.work-left {
+    text-align: right;
+    padding: 1em 5em 0 0;
+}
+
+.work-right {
+    border-left: 1px solid #999;
+    padding: 2.5em 0 2em 6em;
+}
+
+.work-info h4 {
+    font-size: 1.2em;
+    background: darkcyan;
+    display: inline-block;
+    padding: .6em 1.2em;
+    color: #fff;
+    position: relative;
+}
+
+.work-info h4:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    /*-- w3layouts --*/
+    content: '';
+    top: 9px;
+    right: -14px;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent rgb(0, 139, 139);
+}
+
+.work-info h5 {
+    font-size: 1.3em;
+    background: #C7EDCC;
+    color: #000000;
+    margin-bottom: .5em;
+    /*border: 1px solid #F7E612;*/
+    display: inline-block;
+    padding: 0 1.2em;
+}
+
+.work-info h5 span.glyphicon {
+    font-size: 0.9em;
+    color: #fff;
+    background: #008B8B;
+    padding: 1em;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    border-radius: 70%;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+.work-right h5 span.glyphicon {
+    margin-right: 5em;
+    margin-left: -8em;
+}
+
+.work-left2 h5 span.glyphicon {
+    margin-left: 4em;
+    margin-right: -7.3em;
+    z-index: 9;
+}
+
+.work-right.work-right2 {
+    min-height: 170px;
+    float: right;
+}
+
+.work-right.work-right2 h4:before {
+    left: -14px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    /*-- agileits --*/
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+.work-right.work-right2 h4 {
+    margin-top: 0.8em;
+}
+
+.work-info:hover h5 span.glyphicon {
+    color: #F7E612;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+/*--//work--*/
+/*--education--*/
+/*skills*/
+.skills .chart {
+    font-size: 1em;
+    color: #000000;
+}
+.skills .skills-info{
+    margin-top: 15px;
+}
+/*Gallery*/
+.album   .wall {
+    height: 5px;
+}
+
+.album .tab-img > .col-md-4 > a:hover {
+    position: relative;
+    transition: .5s all;
+    left: 10px;
+    -webkit-transform: scale(0.8);
+}
+.
+/*Gallery*/
+
+/*contact*/
+.contact .contact-left{
+    height: 400px;
+}
+#baidumap{
+    height: 400px;
+}
+#contact-right{
+    border: 2px solid #008B8B;
+    height: 400px;
+}
+.comtact_info .contact-form {
+    font-size:18px;
+    font-weight:normal;
+}
+
+.contact .addressinfo{
+    margin-bottom:5px;
+    line-height:150%;
+    padding-left:6px;
+    text-align:left;
+}
+
+.contact .contact_info .tel{
+    margin-bottom:0px;
+}
+.contact .contact_info .tel p a{
+    text-decoration: none;
+}
+
+.contact-form input[type="text"],input[type="email"] {
+    margin: 6px;
+    width: 69%;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+
+.contact-form input[type="submit"] {
+    outline: none;
+    font-size: 1.0em;
+    text-align:center;
+    background: #008B8B;
+    border: 2px solid #008B8B;
+    width: 97%;
+}
+.contact-form input[type="submit"]:hover {
+    background: #fff;
+    cursor: pointer;
+    transition:all 0.5s linear;
+}
+/*contact*/
+footer .footer-info {
+    clear: both;
+    width: 1066px;
+/ / height : 50 px;
+    margin: 20px auto 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/*footer*/
+footer .footer-info a {
+    text-decoration: none;
+    color: #008B8B;
+}
+
+footer .footer-info a:hover {
+    text-decoration: none;
+    color: pink;
+}
+/*footer*/
+
+/*/move-up arrow*/
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url("../images/move-up.png") no-repeat 0px 0px;
+    z-index:999;
+}
+
+#toTopHover {
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+/*/move-up arrow*/

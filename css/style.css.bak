@@ -1,0 +1,431 @@
+
+*{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+}
+	nav{
+		width:1200px;
+		height:60px;
+		margin:10px auto;
+		background:#fff;
+	}
+	#category{
+		padding-left:30px;
+		background:#008B8B;
+		height:50px;
+		/* position:fixed;
+		top:20px;
+		left:20px; */
+	}
+	#category #showdate{
+		float:left;
+	/* 	position: absolute;
+		top: 20px;
+		left: 60px; */
+		line-height:50px;
+		padding: 0em 2em; 
+		padding-left:20px;
+		font-size:18px;
+		font-weight:700;
+		color:white;
+		text-align:center;
+		text-decoration:none;
+	}
+	#category p{
+		float:left;
+		width:50px;
+		height:50px;
+		margin:0px;
+		background:#EEFBF0;
+	}
+	
+
+	#category #introname ul li{
+		display: inline-block;
+		height:50px;
+		border:5px solid #ccc;	
+		text-align:center;
+	}
+	
+	#category ul li a{
+		float:left;
+		display:block;
+		padding:5px;
+		width:80px;
+		height:50px;
+		line-height:50px;
+		padding: 0em 2em; 
+		padding-left:20px;
+		font-size:14px;
+		font-weight:700;
+		color:white;
+		text-align:center;
+		text-decoration:none;
+	}
+
+	a:hover{
+		background-color:skyblue;
+	}
+
+.all{
+  width:1066px;
+  height:350px;
+  padding:0px;
+  border:1px solid #ccc;
+  margin:10px auto;
+  position:relative;
+}
+.screen{
+	width:1066px;
+	height:350px;
+	 overflow:hidden; 
+	position:relative;
+}
+
+.screen li{ width:1066px; height:600px; overflow:hidden; float:left;}
+.screen ul{ position:absolute; left:0; top:0px; width:7000px;}
+.all ol{ position:absolute; right:10px; bottom:10px; line-height:20px; text-align:center;}
+.all ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;}
+.all ol li.current{ background:yellow;}
+
+#intro{
+	margin:10px auto;
+	height：360px;
+	width:1066px;
+	background:skyblue;
+	
+}
+#intro h2 a{
+	display:block;
+	margin-top:10px;
+	line-height:30px;
+	font-size:18px;
+	font-weight:700;
+	background-color:greenyellow;
+}
+#intro .intro_info p {
+	float:left;  
+	height:360px;
+	width:1066px;
+}
+#intro  .intro_info .intro_words{
+	text-indent:2em;
+	float:left;
+	padding-left:35px;
+	padding-top:10px;
+	text-align: left;
+}
+
+#intro .intro_info{
+	height:360px;
+	width:1066px;
+	/* float:left; */
+}
+
+#work{
+	margin-top:10px;
+}
+
+#work .container{
+	clear:both;
+	width:1066px;
+	height:220px;
+	border:1px solid #ccc;
+	margin:auto;
+	background-color:skyblue;
+}
+#work .work{
+	text-indent:2em;
+}
+#work h3 a{
+	display:block;
+	margin-top:10px;
+	line-height:30px;
+	font-size:18px;
+	font-weight:700;
+	background-color:greenyellow;
+}
+
+#education{
+	/* float:left; */
+	/* margin:20px; */
+	margin:10px 0 10px;
+	height:270px;
+	width:1066px;
+	font-size:16px;
+	font-weight:400;
+	background:skyblue;
+}
+#education h2{
+	padding-left:0px;
+	font-size:18px;
+	font-weight:400;
+}
+#education #box{
+	vertical-align:middle;
+}
+.education .edu_title a{
+	display:block;
+	line-height:30px;
+	font-size:18px;
+	font-weight:700;
+	background:greenyellow;
+}
+ #education .music_box{
+	float:left;
+	width:350px;
+	margin:20px auto;
+	/* border:2px solid greenyellow; */
+	text-align:center;
+	vertical-align:middle;
+}
+#education .poem{
+	/* height:230px; */
+	/* padding-left:300px; */
+	float:left;
+	margin:10px;
+}
+#education .poem h3{
+	margin-top:15px;
+}
+/*-- Gallery --*/
+.mygallery {
+	padding:0;
+	margin-bottom:20px;
+}
+.mygallery h3 {
+	color:black;
+	width:1066px;
+	font-size:18px;
+	font-family: 'Cinzel', serif;
+	line-height:18px;
+	font-weight:bold;
+}
+.mygallery .core{
+	width:1026px;
+	text-align:center;
+	border:20px solid skyblue;
+}
+.mygallery h3 a{
+	display:block;
+	line-height:30px;
+	font-size:18px;
+	font-weight:700;
+	background-color:greenyellow;
+}
+
+ .text-div{
+	width:982px; 
+	text-align:center;
+} 
+.mygallery img.img-responsive{
+    height: 282px;
+	margin-bottom:10px;
+	opacity:0.67;
+	display:inline-block;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.mygallery img.img-responsive:hover {
+	opacity:1;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+<!-- /Gallery --*>
+
+<!--hobby -->
+#hobby{
+	height:400px;
+	width:1026px;
+	border: 20px solid skyblue;
+	margin:10px auto;
+	margin-top:30px;
+}
+#hobby h3 a{
+	display:block;
+	margin-top:10px;
+	line-height:30px;
+	font-size:18px;
+	font-weight:700;
+	background-color:greenyellow;
+}
+#hobby #interest{
+	height:310px;
+	width:1026px;
+	text-align:center;
+	border:20px solid skyblue;
+}
+#hobby #interest #audios{
+	float:left;
+	width:600px;
+	height:270px;
+	margin:10px 10px;
+	text-align:center;	
+	border: 10px solid skyblue;
+	background-image: url(./images/cover.jpg);
+}
+#hobby #videos{
+	margin-top:10px;
+	float:left;
+	width:360px;
+	height:270px;
+	border:10px solid skyblue;
+	text-align:center;	
+}
+#hobby .videos video{
+	margin-top:15px;
+	width:320px;
+	height:240px;
+	
+}
+
+<!--contact -->
+.welcome_contact{
+	margin:10px 0px;
+	width:1066px;
+	margin-top:20px;
+	margin-bottom:30px;
+	
+}
+.welcome_contact .contact_info{
+	/* width:420px; */
+} 
+
+.welcome_contact .contact_box h3{
+	height:30px;
+	width:1066px;
+	margin-bottom:2px;
+	margin-top:10px;
+	background-color: greenyellow;
+}
+
+.welcome_contact .contact_box h3 a{
+	display:block;
+	line-height:30px;
+	font-size:18px;
+	font-weight:700;
+	background-color:greenyellow;
+}
+
+.welcome_contact .map_contact {
+	width:1066px;
+/* 	height:420px; */
+	border:0px solid skyblue;
+	margin-bottom:30px;
+}
+
+
+.welcome_contact .map_contact .baidumap{
+/* .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word} 
+	float:right; */
+	/* display:inline-block;   */
+	/* margin-top:5px; */
+	float:left;
+	/* display:inline;  */
+	height:400px;
+	width:600px;
+	margin:0px 10px;
+} 
+
+.welcome_contact .map_contact .contact_info{
+	float:left;
+	/* display:inline;  */  
+	border:5px solid skyblue;
+	padding-left:10px;
+	padding-top:20px;
+	width:425px;
+	height:370px;
+	vertical-align:middle;
+}
+.welcome .comtact_info .contact-form {
+	font-size:18px;
+	font-weight:normal;
+	
+}
+
+.welcome_contact .addressinfo{
+	margin-bottom:5px;
+	line-height:150%;
+	padding-left:6px;
+	text-align:left;
+}
+
+ .welcome_contact .contact_info .tel{
+	margin-bottom:0px;
+} 
+.contact-form input[type="text"] {
+    width: 40%;
+    color: #fff;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    border: 1px solid #8C8C8C;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+.contact-form input[type="text"].手机号码 {
+    width: 90%;
+    margin-bottom: 1em;
+}
+ .contact-form input.phone[type="text"] {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.contact-form textarea {
+    width: 88%;
+    background: none;
+    color: #fff;
+	font-family:微软雅黑Light Arial;
+    font-size: 1.2em;
+    padding: .5em 1em;
+    border: 1px solid #8C8C8C;
+    min-height: 3.4em;
+ }   
+.contact-form input[type="button"] {
+	outline: none;
+    color: #fff;
+    padding: 1em 1em;
+    font-size: 1.0em;
+    margin: 1em 0 0 0;
+	text-align:center;
+    -webkit-appearance: none;
+    background: #008B8B;
+    border: 2px solid #008B8B;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 90%;
+} 
+ #last01 footer{
+	clear: both;
+	width:1066px;
+	height:50px;
+	margin:40px auto;
+	font-size:18px;
+	font-weight:700;
+	 text-align:center; 
+}
+
+#wall{
+	clear:both;
+	width:1066px;
+	height:6px;
+}
+
+#last01 footer a:hover{
+	 text-decoration: none;
+	 color:pink;
+}
+
+</style>
